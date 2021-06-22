@@ -1,0 +1,120 @@
+.login-page{background: #aaa;}
+.floatbtn{position: absolute; top: 0; right: 5px; background: none; border: none; z-index: 999;}
+.floatbtn i{font-size: 25px;}
+.po_relative{position: relative;}
+.btn-lg{font-size: 16px !important; padding: 15px 25px; margin-right: 10px;}
+.card .body .col-xs-12, .card .body .col-sm-12, .card .body .col-md-12, .card .body .col-lg-12 {
+    margin-bottom: 0;
+}
+
+ul, ol{padding-left: 15px;}
+
+.card .footer{padding: 0 20px 20px;}
+
+.link{display: inline-block; background: none; border: none; margin-top: 10px; text-decoration: underline;}
+
+.input-group{margin-bottom: 25px;}
+
+.form-note{color: #f00; font-size: 12px; font-weight: bold; display: block;}
+
+.alertmodel .modal-dialog{max-width: 400px;}
+.alertmodel .modal-body{text-align: center; padding: 30px;}
+.alertmodel p{margin: 0; font-weight: bold; font-size: 20px;}
+.alertmodel i{font-size: 70px; margin-bottom: 20px;}
+.alertmodel .modal-footer{text-align: center;}
+.alertmodel .btn{margin:  0 0 10px !important; display: block; width: 100%; padding: 10px; font-size: 14px !important;}
+
+.veridcard_modal .modal-dialog{max-width: 450px;}
+.veridcard_modal .modal-header{padding: 15px; border-bottom: 1px solid #dee2e6; border-top-left-radius: .3rem;border-top-right-radius: .3rem;}
+.veridcard_modal .modal-body{padding: 40px;}
+.veridcard_modal .row{margin-left: -10px; margin-right: -10px; width: 100%}
+.veridcard_modal .row > div{padding: 0 10px;}
+.veridcard_modal .btn{font-size: 24px; margin: 15px 0 0;}
+.veridcard_modal .btn.main{margin-top: 0;}
+.veridcard_modal .modal-footer{text-align: center;}
+
+
+.large_modal .modal-dialog{max-width: 800px;}
+.large_modal .modal-header{padding: 15px; border-bottom: 1px solid #dee2e6; border-top-left-radius: .3rem;border-top-right-radius: .3rem;}
+.large_modal .modal-body{padding: 40px;}
+.large_modal .row{margin-left: -10px; margin-right: -10px; width: 100%}
+.large_modal .row > div{padding: 0 10px;}
+.large_modal .btn{font-size: 24px; margin: 15px 0 0;}
+.large_modal .btn.main{margin-top: 0;}
+.large_modal .modal-footer{text-align: center;}
+
+.form-group .form-line.focused:after {
+-moz-transform: scaleX(0) !important;
+    -ms-transform: scaleX(0) !important;
+    -o-transform: scaleX(0) !important;
+    -webkit-transform: scaleX(0) !important;
+    transform: scaleX(0) !important;
+}
+
+.input-group .form-line.focused:after {
+    -moz-transform: scaleX(0) !important;
+    -ms-transform: scaleX(0) !important;
+    -o-transform: scaleX(0) !important;
+    -webkit-transform: scaleX(0) !important;
+    transform: scaleX(0) !important;
+}
+
+.dataframe{border: 2px solid #ccc; padding: 15px; margin-top: 10px;}
+.dataframe_head{background: #ccc; padding: 10px; text-align: left; font-size: 12px;}
+.dataframe .row{margin-left: -20px; margin-right: -20px;}
+.dataframe .row > div{margin: 0 !important; padding: 0 20px; width: 25%;}
+.dataframe_body{background: #eee; padding: 10px; margin: 3px 0; text-align: left}
+.dataframe_body span{height: 30px; line-height: 1.5; display: inline-block; font-size: 13px;}
+.dataframe_body .btn{width: 100%;}
+.dataframe.dataselect .dataframe_body{display: none;}
+.dataframe_none{display: block; height: 50px; line-height: 50px; text-align: center; width: 100%; font-size: 18px;}
+.dataframe_none i{height: 50px; line-height: 50px; vertical-align: middle; margin-right: 5px;}
+
+.dataframe_search{margin-bottom: 15px;}
+.dataframe_search > div{display: inline-block;}
+.dataframe_search label{display: inline-block; font-size: 12px; margin-right: 5px;} 
+.dataframe_search .form-control{width: 120px !important; display: inline-block !important; margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.dataframe_search b{font-size: 28px;}
+
+table .btn{padding: 10px 15px; margin-bottom: 5px; margin-top: 0 !important; max-width: 200px;}
+table tbody td > a{font-weight: bold; color: #03A9F4;}
+
+input:disabled{cursor: no-drop !important;}
+[type="checkbox"].filled-in:disabled + label{cursor: no-drop;}
+table input[type="checkbox"]{position: static !important; opacity: 1 !important;}
+table th{font-size: 12px;}
+table tbody td{font-size: 13px;}
+
+
+.floatbox{position: fixed; opacity: 0; visibility: hidden; top: 28%; left: 30%; z-index: 9999; width: 200px; background: rgba(255, 255, 255, 0.9); padding: 5px; transition:  0.5s;}
+.floatbox .btn{padding: 15px; font-size: 14px !important;}
+.floatbox.showbox{opacity: 1; visibility: visible; top: 30%;}
+
+.tranbill{padding: 0 40px 40px;}
+.tranbill_data{border: 2px solid #aaa; padding: 20px; min-height: 144px;}
+.tranbill_data h4{font-size: 14px; margin-top: 0;}
+.tranbill_data span{display: block; margin: 5px 0; font-size: 13px;}
+.tranbill_nodata{height: 300px; text-align: center; display: block; border: 1px solid #eee; padding: 50px 0; font-size: 20px; font-weight: bold;}
+.tranbill_sign{margin-top: 40px;}
+.tranbill_sign span{color: #ccc;}
+
+.uploadfile{position: relative;}
+.uploadfile span{display: inline-block; height: 34px; line-height: 34px;}
+.uploadfile a{height: 34px; padding: 0 15px; line-height: 34px; position: absolute; bottom: 2px; right: 0; font-size: 14px !important;}
+.uploadfile a input{opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+.input-group-addon, .input-group-btn{vertical-align: bottom;}
+.demo-radio-button{margin-top: 4px;}
+
+.billcode{padding: 10px; border: 1px dashed #aaa; margin-bottom: 20px; background: #eee;}
+.billcode h4{margin-bottom: 0;}
+
+.searchbox .input-group{margin-bottom: 0;}
